@@ -1,0 +1,86 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ever-checkout/receipt",
+  "title": "Receipt",
+  "category": "ever-checkout",
+  "description": "Shows a customer what they bought and their download links.",
+  "keywords": [
+    "receipt",
+    "order",
+    "download",
+    "thank you"
+  ],
+  "textdomain": "ever-checkout",
+  "attributes": {
+    "completedHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "completedNote": {
+      "type": "string",
+      "default": ""
+    },
+    "pendingHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "pendingNote": {
+      "type": "string",
+      "default": ""
+    },
+    "notFoundHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "downloadLabel": {
+      "type": "string",
+      "default": ""
+    },
+    "helpText": {
+      "type": "string",
+      "default": ""
+    },
+    "showSummary": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonStyle": {
+      "type": "string",
+      "default": "outline",
+      "enum": [
+        "fill",
+        "outline"
+      ]
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "background": true,
+      "text": true,
+      "link": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "textAlign": true,
+      "__experimentalFontFamily": true
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": [
+    "file:./style-index.css",
+    "wp-block-button"
+  ],
+  "render": "file:./render.php"
+}

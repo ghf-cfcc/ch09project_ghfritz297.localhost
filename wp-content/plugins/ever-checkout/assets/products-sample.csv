@@ -1,0 +1,3 @@
+Name,Price,Status,Description,Download limit,Download expiry (days)
+Sample Ebook,9.99,active,A short description shown on the receipt.,0,0
+Sample Plugin,49.00,draft,Leave the limit and expiry at 0 to use the store defaults.,5,365

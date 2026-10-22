@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'byteever/ever-checkout',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'e0eb389a6d82406106e054565c0678358173b275',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'byteever/ever-checkout' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'e0eb389a6d82406106e054565c0678358173b275',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'byteever/models' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'reference' => 'b297964aeedd23288722f288628b667155e71a50',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../byteever/models',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'byteever/plugin' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'reference' => 'edb1b467324501492f50dc0af87a54e971a26627',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../byteever/plugin',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

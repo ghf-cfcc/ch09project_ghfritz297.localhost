@@ -1,0 +1,2204 @@
+# Copyright (C) 2026 ByteEver
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ever Checkout 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ever-checkout\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-10T16:01:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ever-checkout\n"
+
+#. Plugin Name of the plugin
+#: ever-checkout.php
+#: includes/Admin/Menu.php:54
+#: includes/Admin/Menu.php:55
+#: includes/Blocks/Blocks.php:72
+#: includes/Privacy.php:68
+#: includes/Privacy.php:84
+#: src/admin/app/root.js:42
+#: src/admin/app/root.js:48
+msgid "Ever Checkout"
+msgstr ""
+
+#. Description of the plugin
+#: ever-checkout.php
+msgid "Sell digital products from WordPress with your own checkout and Stripe."
+msgstr ""
+
+#. Author of the plugin
+#: ever-checkout.php
+msgid "ByteEver"
+msgstr ""
+
+#. Author URI of the plugin
+#: ever-checkout.php
+msgid "https://byteever.com"
+msgstr ""
+
+#: build/blocks/buy-button/render.php:22
+#: src/blocks/buy-button/render.php:22
+#: src/blocks/buy-button/edit.js:170
+#: src/blocks/buy-button/edit.js:190
+msgid "Buy now"
+msgstr ""
+
+#: build/blocks/receipt/render.php:64
+#: includes/RestAPI/Controllers/Dashboard.php:386
+#: src/blocks/receipt/render.php:64
+#: src/admin/app/routes/customers/view/tabs/downloads.js:32
+#: src/admin/app/routes/customers/view/tabs/orders-table.js:23
+#: src/admin/app/routes/index.js:67
+#: src/admin/app/routes/orders/index.js:52
+#: src/blocks/receipt/edit.js:189
+msgid "Order"
+msgstr ""
+
+#: build/blocks/receipt/render.php:69
+#: src/blocks/receipt/render.php:69
+#: templates/checkout-dialog.php:49
+msgid "Pay with"
+msgstr ""
+
+#: build/blocks/receipt/render.php:74
+#: includes/Privacy.php:129
+#: includes/Privacy.php:147
+#: includes/RestAPI/Controllers/Dashboard.php:413
+#: src/blocks/receipt/render.php:74
+#: src/admin/app/routes/customers/view/tabs/orders-table.js:51
+#: src/admin/app/routes/orders/filters.js:91
+#: src/admin/app/routes/orders/index.js:104
+#: src/blocks/receipt/edit.js:193
+msgid "Date"
+msgstr ""
+
+#: build/blocks/receipt/render.php:79
+#: includes/Privacy.php:132
+#: includes/RestAPI/Controllers/Dashboard.php:407
+#: src/blocks/receipt/render.php:79
+#: src/admin/app/routes/customers/view/tabs/orders-table.js:59
+#: src/admin/app/routes/orders/filters.js:45
+#: src/admin/app/routes/orders/index.js:91
+#: src/admin/app/routes/orders/view/sidebar/totals.js:52
+#: src/admin/app/routes/orders/view/tabs/overview.js:171
+#: src/blocks/receipt/edit.js:197
+msgid "Total"
+msgstr ""
+
+#: build/blocks/receipt/render.php:88
+#: src/blocks/receipt/render.php:88
+msgid "How to pay"
+msgstr ""
+
+#: build/blocks/receipt/render.php:91
+#: src/blocks/receipt/render.php:91
+msgid "This usually takes a few seconds. Refresh the page, and check your email for the download links."
+msgstr ""
+
+#: build/blocks/receipt/render.php:105
+#: src/blocks/receipt/render.php:105
+msgid "There is nothing to download on this order."
+msgstr ""
+
+#: build/blocks/receipt/render.php:110
+#: includes/Emails/Receipt.php:133
+#: src/blocks/receipt/render.php:110
+msgid "Your file"
+msgstr ""
+
+#. translators: %s: expiry date.
+#: build/blocks/receipt/render.php:125
+#: includes/Emails/Receipt.php:138
+#: src/blocks/receipt/render.php:125
+#, php-format
+msgid "Available until %s"
+msgstr ""
+
+#. translators: %d: downloads left.
+#: build/blocks/receipt/render.php:129
+#: includes/Emails/Receipt.php:142
+#: src/blocks/receipt/render.php:129
+#, php-format
+msgid "%d download remaining"
+msgid_plural "%d downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/Menu.php:73
+#: src/admin/app/routes/dashboard/index.js:81
+#: src/admin/app/routes/index.js:33
+#: src/admin/app/routes/index.js:153
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin/Menu.php:78
+#: includes/Privacy.php:131
+#: includes/RestAPI/Controllers/Dashboard.php:310
+#: src/admin/app/routes/index.js:40
+#: src/admin/app/routes/index.js:160
+#: src/admin/app/routes/products/index.js:223
+msgid "Products"
+msgstr ""
+
+#: includes/Admin/Menu.php:83
+#: includes/Privacy.php:124
+#: includes/RestAPI/Controllers/Dashboard.php:127
+#: includes/RestAPI/Controllers/Dashboard.php:293
+#: src/admin/app/routes/customers/view/sidebar/stats.js:36
+#: src/admin/app/routes/customers/view/tabs/index.js:36
+#: src/admin/app/routes/customers/view/tabs/orders.js:18
+#: src/admin/app/routes/index.js:57
+#: src/admin/app/routes/index.js:167
+#: src/admin/app/routes/orders/index.js:232
+#: src/admin/app/routes/orders/view/index.js:125
+msgid "Orders"
+msgstr ""
+
+#: includes/Admin/Menu.php:88
+#: includes/RestAPI/Controllers/Dashboard.php:304
+#: src/admin/app/routes/customers/index.js:220
+#: src/admin/app/routes/customers/view/index.js:122
+#: src/admin/app/routes/index.js:72
+#: src/admin/app/routes/index.js:174
+msgid "Customers"
+msgstr ""
+
+#: includes/Admin/Menu.php:93
+#: includes/Plugin.php:130
+#: src/admin/app/routes/index.js:86
+#: src/admin/app/routes/index.js:181
+#: src/admin/app/routes/settings/index.js:64
+#: src/admin/app/routes/settings/payments/gateway.js:115
+msgid "Settings"
+msgstr ""
+
+#: includes/Blocks/Receipt.php:68
+#: src/blocks/receipt/edit.js:17
+msgid "Thanks, your download is ready"
+msgstr ""
+
+#. translators: %s: customer email.
+#: includes/Blocks/Receipt.php:70
+#: src/blocks/receipt/edit.js:19
+#, php-format,js-format
+msgid "A copy of these links was sent to %s. Keep that email; it is your receipt."
+msgstr ""
+
+#: includes/Blocks/Receipt.php:71
+msgid "This order is closed."
+msgstr ""
+
+#: includes/Blocks/Receipt.php:72
+#: src/blocks/receipt/edit.js:23
+msgid "Thanks, one more step"
+msgstr ""
+
+#. translators: %s: customer email.
+#: includes/Blocks/Receipt.php:74
+#: src/blocks/receipt/edit.js:25
+#, php-format,js-format
+msgid "Your order is reserved. We will email your download links to %s as soon as the payment arrives."
+msgstr ""
+
+#: includes/Blocks/Receipt.php:75
+#: src/blocks/receipt/edit.js:29
+msgid "We could not find that order."
+msgstr ""
+
+#: includes/Blocks/Receipt.php:76
+#: src/blocks/receipt/edit.js:30
+msgid "Download"
+msgstr ""
+
+#: includes/Blocks/Receipt.php:77
+#: src/blocks/receipt/edit.js:31
+msgid "Trouble with a file? Reply to your receipt email and we will sort it out."
+msgstr ""
+
+#: includes/Checkout.php:78
+#: templates/checkout-dialog.php:83
+msgid "Pay"
+msgstr ""
+
+#. translators: %s: formatted price.
+#: includes/Checkout.php:80
+#, php-format
+msgid "Pay %s"
+msgstr ""
+
+#: includes/Checkout.php:81
+msgid "Digital download"
+msgstr ""
+
+#: includes/Checkout.php:82
+#: includes/Checkout.php:141
+#: includes/Checkout.php:197
+#: includes/Checkout.php:205
+#: includes/Checkout.php:222
+msgid "We could not start the payment. Please try again."
+msgstr ""
+
+#: includes/Checkout.php:83
+msgid "This payment method cannot run here."
+msgstr ""
+
+#: includes/Checkout.php:145
+msgid "Too many attempts. Please wait a minute and try again."
+msgstr ""
+
+#: includes/Checkout.php:151
+#: includes/RestAPI/Controllers/Checkout.php:74
+msgid "That product is not for sale."
+msgstr ""
+
+#: includes/Checkout.php:163
+msgid "This store cannot take payments yet."
+msgstr ""
+
+#: includes/Checkout.php:170
+msgid "Enter your name."
+msgstr ""
+
+#: includes/Checkout.php:174
+msgid "Enter the email address the download should be sent to."
+msgstr ""
+
+#: includes/Downloads.php:53
+msgid "This download link is not valid."
+msgstr ""
+
+#: includes/Downloads.php:63
+#: includes/Downloads.php:172
+msgid "This file is missing. Please contact the seller."
+msgstr ""
+
+#: includes/Downloads.php:107
+msgid "This download was cancelled when the order was refunded."
+msgstr ""
+
+#: includes/Downloads.php:111
+msgid "This download is not available for this order."
+msgstr ""
+
+#: includes/Downloads.php:117
+msgid "This file is no longer available."
+msgstr ""
+
+#: includes/Downloads.php:124
+msgid "This download link has expired."
+msgstr ""
+
+#: includes/Downloads.php:130
+msgid "This download has been used the maximum number of times."
+msgstr ""
+
+#: includes/Downloads.php:229
+msgid "Download unavailable"
+msgstr ""
+
+#: includes/Emails/Email.php:145
+msgid "Site name"
+msgstr ""
+
+#: includes/Emails/Email.php:146
+msgid "Site URL"
+msgstr ""
+
+#: includes/Emails/Email.php:307
+msgid "Enable this email"
+msgstr ""
+
+#: includes/Emails/Email.php:313
+msgid "Subject"
+msgstr ""
+
+#: includes/Emails/Email.php:319
+msgid "Heading"
+msgstr ""
+
+#: includes/Emails/Email.php:325
+msgid "Body"
+msgstr ""
+
+#. translators: %s: comma-separated placeholder tags.
+#: includes/Emails/Email.php:328
+#, php-format
+msgid "Placeholders: %s"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:25
+#: includes/Emails/NewOrder.php:29
+msgid "New order"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:26
+msgid "Sent to you when a payment completes."
+msgstr ""
+
+#: includes/Emails/NewOrder.php:28
+msgid "New order: {product_name}, {order_total}"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:34
+msgid "Customer: {customer_email}"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:34
+msgid "Order: {order_id}"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:34
+msgid "Paid with: {payment_method}"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:35
+msgid "View the order"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:73
+#: includes/Emails/Receipt.php:75
+msgid "Product name"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:74
+#: includes/Emails/Receipt.php:78
+msgid "Order total"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:75
+msgid "Customer email"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:76
+#: includes/Emails/Receipt.php:77
+#: includes/Privacy.php:128
+#: includes/Privacy.php:146
+msgid "Order number"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:77
+msgid "Payment method"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:78
+msgid "Link to the order"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:118
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/Emails/NewOrder.php:119
+msgid "Comma separated."
+msgstr ""
+
+#: includes/Emails/NewOrder.php:125
+msgid "Enter one or more email addresses, separated by commas."
+msgstr ""
+
+#: includes/Emails/Receipt.php:24
+msgid "Receipt"
+msgstr ""
+
+#: includes/Emails/Receipt.php:25
+msgid "Sent to the customer when a payment completes, with their download links."
+msgstr ""
+
+#: includes/Emails/Receipt.php:27
+msgid "Your download from {site_name}"
+msgstr ""
+
+#: includes/Emails/Receipt.php:28
+msgid "Thanks for your purchase"
+msgstr ""
+
+#: includes/Emails/Receipt.php:32
+msgid "Hi {customer_name},"
+msgstr ""
+
+#: includes/Emails/Receipt.php:33
+msgid "Thanks for buying {product_name}. Your download is ready."
+msgstr ""
+
+#: includes/Emails/Receipt.php:35
+msgid "Order {order_id} | {order_total} | {order_date}"
+msgstr ""
+
+#: includes/Emails/Receipt.php:36
+msgid "If a link stops working, reply to this email and we'll sort it out."
+msgstr ""
+
+#: includes/Emails/Receipt.php:74
+msgid "Customer name"
+msgstr ""
+
+#: includes/Emails/Receipt.php:76
+msgid "Download links"
+msgstr ""
+
+#: includes/Emails/Receipt.php:79
+msgid "Order date"
+msgstr ""
+
+#: includes/Emails/Receipt.php:102
+msgid "there"
+msgstr ""
+
+#: includes/Gateways/Gateway.php:144
+msgid "This gateway cannot refund."
+msgstr ""
+
+#: includes/Gateways/Gateway.php:158
+msgid "This gateway does not accept callbacks."
+msgstr ""
+
+#: includes/Gateways/Offline.php:50
+msgid "Bank transfer"
+msgstr ""
+
+#: includes/Gateways/Offline.php:51
+msgid "Offline payment"
+msgstr ""
+
+#: includes/Gateways/Offline.php:52
+msgid "Show the customer how to pay you outside the site, then complete the order yourself once the money arrives."
+msgstr ""
+
+#: includes/Gateways/Offline.php:86
+msgid "Enable offline payment"
+msgstr ""
+
+#: includes/Gateways/Offline.php:92
+msgid "Payment instructions"
+msgstr ""
+
+#: includes/Gateways/Offline.php:93
+msgid "Shown to the customer on the receipt page. Include where to send the money and what to reference."
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:54
+msgid "Card"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:55
+msgid "Stripe"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:56
+msgid "Take card payments through Stripe. Customers pay on a Stripe-hosted page, so no card details reach your site."
+msgstr ""
+
+#. translators: %s: expected key prefix.
+#: includes/Gateways/StripeGateway.php:153
+#, php-format
+msgid "That does not look like a Stripe key; it should start with %s."
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:173
+msgid "This order has no completed payment to refund."
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:202
+msgid "Invalid signature."
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:506
+msgid "Enable Stripe"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:512
+#: src/admin/app/routes/settings/payments/index.js:99
+msgid "Test mode"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:513
+msgid "Use your test keys. No money moves."
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:519
+msgid "Test publishable key"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:524
+msgid "Test secret key"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:530
+msgid "Test webhook signing secret"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:536
+msgid "Live publishable key"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:541
+msgid "Live secret key"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:547
+msgid "Live webhook signing secret"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:553
+msgid "Accept promotion codes"
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:554
+msgid "Lets Stripe collect a coupon code you created in your Stripe dashboard."
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:575
+msgid "Stripe is not configured."
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:605
+msgid "Stripe sent a response we could not read."
+msgstr ""
+
+#: includes/Gateways/StripeGateway.php:613
+msgid "Stripe refused the request."
+msgstr ""
+
+#: includes/Gateways/Test.php:51
+#: includes/Gateways/Test.php:52
+msgid "Test payment"
+msgstr ""
+
+#: includes/Gateways/Test.php:53
+msgid "Completes orders without taking any money. For trying the checkout only; never enable it on a live store."
+msgstr ""
+
+#: includes/Gateways/Test.php:82
+#: src/admin/app/routes/orders/filters.js:74
+msgid "Test"
+msgstr ""
+
+#: includes/Gateways/Test.php:113
+msgid "Enable test payments"
+msgstr ""
+
+#: includes/Models/Download.php:188
+msgid "The file did not upload. Please try again."
+msgstr ""
+
+#. translators: %s: comma-separated list of allowed extensions.
+#: includes/Models/Download.php:200
+#, php-format
+msgid "That file type is not allowed. Allowed: %s"
+msgstr ""
+
+#: includes/Models/Download.php:207
+msgid "That file is larger than this site allows."
+msgstr ""
+
+#: includes/Models/Order.php:198
+msgid "Pending"
+msgstr ""
+
+#: includes/Models/Order.php:199
+#: src/admin/app/routes/orders/filters.js:101
+#: src/admin/app/routes/orders/view/tabs/overview.js:133
+msgid "Completed"
+msgstr ""
+
+#: includes/Models/Order.php:200
+msgid "Partially refunded"
+msgstr ""
+
+#: includes/Models/Order.php:201
+#: includes/RestAPI/Controllers/Dashboard.php:128
+#: includes/RestAPI/Controllers/Dashboard.php:299
+#: src/admin/app/routes/orders/view/sidebar/totals.js:64
+msgid "Refunded"
+msgstr ""
+
+#: includes/Models/Order.php:202
+msgid "Failed"
+msgstr ""
+
+#: includes/Models/Order.php:203
+msgid "Cancelled"
+msgstr ""
+
+#: includes/Models/Order.php:218
+#: src/admin/app/routes/orders/filters.js:64
+msgid "Sale"
+msgstr ""
+
+#: includes/Models/Order.php:219
+#: src/admin/app/routes/orders/filters.js:65
+msgid "Refund"
+msgstr ""
+
+#. translators: 1: order id, 2: status now, 3: status wanted.
+#: includes/Models/Order.php:376
+#, php-format
+msgid "Order %1$d cannot move from %2$s to %3$s."
+msgstr ""
+
+#: includes/Models/Product.php:128
+msgid "Active"
+msgstr ""
+
+#: includes/Models/Product.php:129
+msgid "Draft"
+msgstr ""
+
+#: includes/Models/Product.php:144
+msgid "Simple"
+msgstr ""
+
+#: includes/Privacy.php:50
+msgid "This sample text covers what the checkout collects. Edit it to match how you handle orders and which payment providers you use."
+msgstr ""
+
+#: includes/Privacy.php:51
+msgid "Purchases"
+msgstr ""
+
+#: includes/Privacy.php:52
+msgid "When you buy from us we collect your email address, the products you bought, the amount paid, and the IP address the order was placed from. Each time a file is downloaded we record the time, the IP address and the browser it was sent to. We use this to deliver your download, send your receipt, protect the store from fraud and keep the accounting records the law requires. The order record is kept for as long as those records must be retained."
+msgstr ""
+
+#: includes/Privacy.php:53
+#: src/admin/app/routes/index.js:113
+#: src/admin/app/routes/settings/index.js:28
+#: src/admin/app/routes/settings/payments/index.js:115
+msgid "Payments"
+msgstr ""
+
+#: includes/Privacy.php:54
+msgid "Payment details are entered on and processed by the payment provider you choose at checkout. We never see or store your card number. The provider shares the payment outcome and the email address on the payment with us so the order can be completed."
+msgstr ""
+
+#: includes/Privacy.php:107
+#: includes/RestAPI/Controllers/Dashboard.php:392
+#: src/admin/app/routes/index.js:81
+#: src/admin/app/routes/orders/index.js:64
+msgid "Customer"
+msgstr ""
+
+#: includes/Privacy.php:111
+#: includes/Privacy.php:133
+#: templates/checkout-dialog.php:73
+#: src/admin/app/routes/customers/edit/index.js:32
+#: src/admin/app/routes/customers/filters.js:33
+#: src/admin/app/routes/customers/index.js:72
+#: src/admin/app/routes/customers/view/tabs/overview.js:40
+#: src/admin/app/routes/orders/filters.js:32
+#: src/admin/app/routes/orders/view/tabs/overview.js:58
+#: src/admin/app/routes/settings/emails/edit.js:63
+msgid "Email"
+msgstr ""
+
+#: includes/Privacy.php:112
+#: includes/RestAPI/Controllers/Products.php:185
+#: templates/checkout-dialog.php:68
+#: src/admin/app/routes/customers/edit/index.js:27
+#: src/admin/app/routes/customers/filters.js:20
+#: src/admin/app/routes/customers/index.js:53
+#: src/admin/app/routes/orders/view/tabs/overview.js:78
+#: src/admin/app/routes/products/edit/index.js:234
+#: src/admin/app/routes/products/filters.js:32
+msgid "Name"
+msgstr ""
+
+#: includes/Privacy.php:113
+#: src/admin/app/routes/customers/edit/index.js:38
+#: src/admin/app/routes/customers/filters.js:46
+#: src/admin/app/routes/customers/index.js:78
+#: src/admin/app/routes/customers/view/tabs/overview.js:45
+msgid "Country"
+msgstr ""
+
+#: includes/Privacy.php:130
+#: includes/RestAPI/Controllers/Dashboard.php:402
+#: includes/RestAPI/Controllers/Products.php:195
+#: src/admin/app/routes/customers/view/tabs/orders-table.js:40
+#: src/admin/app/routes/orders/filters.js:26
+#: src/admin/app/routes/orders/index.js:80
+#: src/admin/app/routes/products/edit/index.js:252
+#: src/admin/app/routes/products/filters.js:26
+#: src/admin/app/routes/products/index.js:83
+msgid "Status"
+msgstr ""
+
+#: includes/Privacy.php:134
+#: includes/Privacy.php:148
+#: src/admin/app/routes/customers/view/tabs/downloads.js:55
+#: src/admin/app/routes/orders/view/tabs/overview.js:148
+msgid "IP address"
+msgstr ""
+
+#: includes/Privacy.php:142
+#: includes/Services/Settings.php:186
+#: src/admin/app/routes/customers/view/tabs/downloads.js:69
+#: src/admin/app/routes/customers/view/tabs/index.js:42
+#: src/admin/app/routes/index.js:137
+#: src/admin/app/routes/orders/view/tabs/downloads.js:32
+#: src/admin/app/routes/orders/view/tabs/downloads.js:72
+#: src/admin/app/routes/orders/view/tabs/index.js:29
+#: src/admin/app/routes/products/edit/index.js:269
+#: src/admin/app/routes/products/edit/index.js:303
+#: src/admin/app/routes/settings/downloads.js:15
+#: src/admin/app/routes/settings/index.js:40
+msgid "Downloads"
+msgstr ""
+
+#: includes/Privacy.php:149
+msgid "Browser"
+msgstr ""
+
+#. translators: %d: order number.
+#: includes/Privacy.php:201
+#, php-format
+msgid "Order #%d could not be anonymised."
+msgstr ""
+
+#: includes/Privacy.php:220
+msgid "Orders were kept as accounting records with the personal data removed."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Checkout.php:91
+msgid "No order found with that key."
+msgstr ""
+
+#. translators: %s: batch operation name.
+#: includes/RestAPI/Controllers/Controller.php:117
+#, php-format
+msgid "The %s list must be an array of items."
+msgstr ""
+
+#. translators: %d: maximum batch size.
+#: includes/RestAPI/Controllers/Controller.php:132
+#, php-format
+msgid "Batch limit is %d items."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:78
+msgid "Cannot create a customer that already has an id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:241
+msgid "No customer found with that id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:257
+#: includes/RestAPI/Controllers/DownloadLogs.php:121
+#: includes/RestAPI/Controllers/Downloads.php:304
+#: includes/RestAPI/Controllers/Products.php:331
+msgid "Unique identifier."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:262
+msgid "Email address the customer is keyed by."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:268
+msgid "Customer name, as the gateway reported it."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:273
+#: src/admin/app/routes/customers/edit/index.js:40
+msgid "Two-letter country code."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:278
+msgid "The WordPress user this customer belongs to, if any."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:282
+#: includes/RestAPI/Controllers/Downloads.php:349
+#: includes/RestAPI/Controllers/Orders.php:400
+#: includes/RestAPI/Controllers/Products.php:387
+msgid "Date created."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Customers.php:288
+#: includes/RestAPI/Controllers/Downloads.php:355
+#: includes/RestAPI/Controllers/Orders.php:406
+#: includes/RestAPI/Controllers/Products.php:393
+msgid "Date updated."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:126
+#: includes/RestAPI/Controllers/Dashboard.php:220
+msgid "Net revenue"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:129
+msgid "New customers"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:237
+msgid "Connect a payment gateway"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:243
+msgid "Choose a receipt page"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:249
+msgid "Add your first product"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:255
+msgid "Make your first sale"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:281
+msgid "All time"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:287
+msgid "Revenue"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:323
+msgid "Needs attention"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:380
+#: src/admin/app/routes/customers/view/tabs/overview.js:74
+msgid "Recent orders"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:397
+#: src/admin/app/routes/customers/view/tabs/downloads.js:27
+#: src/admin/app/routes/customers/view/tabs/orders-table.js:33
+#: src/admin/app/routes/orders/index.js:73
+#: src/admin/app/routes/orders/view/tabs/downloads.js:22
+#: src/admin/app/routes/orders/view/tabs/overview.js:162
+#: src/admin/app/routes/products/edit/index.js:155
+#: src/admin/app/routes/products/index.js:54
+#: src/blocks/buy-button/edit.js:75
+msgid "Product"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:419
+msgid "Orders land here the moment someone pays."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:421
+#: src/admin/app/routes/customers/view/tabs/overview.js:78
+msgid "View all"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:441
+msgid "Pending orders"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Dashboard.php:450
+msgid "Draft products"
+msgstr ""
+
+#: includes/RestAPI/Controllers/DownloadLogs.php:71
+msgid "No download log found with that id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/DownloadLogs.php:126
+msgid "The order the file was served to."
+msgstr ""
+
+#: includes/RestAPI/Controllers/DownloadLogs.php:131
+msgid "The product the file belongs to."
+msgstr ""
+
+#: includes/RestAPI/Controllers/DownloadLogs.php:136
+msgid "The file that was served."
+msgstr ""
+
+#: includes/RestAPI/Controllers/DownloadLogs.php:141
+msgid "The customer the file was served to."
+msgstr ""
+
+#: includes/RestAPI/Controllers/DownloadLogs.php:146
+msgid "Address the file was served to."
+msgstr ""
+
+#: includes/RestAPI/Controllers/DownloadLogs.php:151
+msgid "Browser the file was served to."
+msgstr ""
+
+#: includes/RestAPI/Controllers/DownloadLogs.php:156
+msgid "Date served."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:83
+msgid "Cannot create a download that already has an id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:275
+msgid "Upload the file, or give the full URL of a file hosted elsewhere."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:288
+msgid "No download found with that id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:309
+msgid "The product this file belongs to."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:314
+msgid "Label shown to the customer on the receipt."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:319
+msgid "Full URL of a file hosted elsewhere. Set by the upload otherwise."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:324
+msgid "Original filename, restored when the file is served."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:329
+msgid "File size in bytes, zero when unknown."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:334
+msgid "MIME type captured at upload."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:339
+msgid "Whether the file is still offered to customers."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Downloads.php:344
+msgid "Sort order within the product."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Emails.php:127
+msgid "No email found with that id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Gateways.php:150
+msgid "No gateway found with that id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:281
+msgid "No order found with that id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:297
+msgid "Order number."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:302
+msgid "Public handle used by the receipt link."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:307
+msgid "The sale a refund points at."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:312
+msgid "Whether the row is a sale or a refund."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:318
+msgid "Order status."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:323
+msgid "Customer, zero until the payment completes."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:328
+msgid "Customer email, empty until the payment completes."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:334
+msgid "Buyer name as typed at checkout."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:339
+msgid "Currency code."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:344
+msgid "Whether live or test keys took the payment."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:349
+msgid "Subtotal in minor units."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:354
+msgid "Discount in minor units."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:359
+msgid "Total in minor units."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:364
+msgid "Amount refunded so far, in minor units."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:369
+msgid "Promotion code applied at checkout."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:374
+msgid "Customer IP address."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:379
+msgid "Gateway that took the payment."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:384
+msgid "The gateway's own id for the payment."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:389
+msgid "What the customer paid with."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:394
+msgid "Date the gateway confirmed the payment."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:412
+msgid "The things sold, with their names and prices at purchase."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Orders.php:417
+msgid "Date the payment completed."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:78
+msgid "Cannot create a product that already has an id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:190
+#: src/admin/app/routes/orders/view/tabs/overview.js:165
+#: src/admin/app/routes/products/edit/index.js:241
+#: src/admin/app/routes/products/filters.js:45
+#: src/admin/app/routes/products/index.js:75
+msgid "Price"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:199
+#: src/admin/app/routes/products/edit/index.js:262
+msgid "Description"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:203
+#: includes/Services/Settings.php:206
+#: src/admin/app/routes/products/edit/index.js:277
+#: src/admin/app/routes/products/filters.js:60
+msgid "Download limit"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:207
+msgid "Download expiry (days)"
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:315
+msgid "No product found with that id."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:336
+msgid "Product name."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:342
+msgid "What kind of product this is."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:348
+msgid "Whether the product is on sale."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:354
+msgid "Product description."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:358
+msgid "Media library attachment shown as the product image."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:364
+msgid "Price in the smallest unit of the store currency."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:370
+msgid "Times each file may be downloaded. Zero falls back to the store setting."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:376
+msgid "Days a download link stays valid. Zero falls back to the store setting."
+msgstr ""
+
+#: includes/RestAPI/Controllers/Products.php:382
+msgid "Ids of uploaded files to attach to the product."
+msgstr ""
+
+#: includes/Services/Settings.php:85
+#: includes/Services/Settings.php:90
+#: src/admin/app/routes/index.js:105
+#: src/admin/app/routes/settings/index.js:22
+#: src/admin/app/routes/settings/store.js:12
+msgid "Store"
+msgstr ""
+
+#: includes/Services/Settings.php:94
+msgid "Store name"
+msgstr ""
+
+#: includes/Services/Settings.php:95
+msgid "Shown at the top of the checkout."
+msgstr ""
+
+#: includes/Services/Settings.php:102
+msgid "Store logo"
+msgstr ""
+
+#: includes/Services/Settings.php:103
+msgid "A square image works best."
+msgstr ""
+
+#: includes/Services/Settings.php:114
+msgid "Currency options"
+msgstr ""
+
+#: includes/Services/Settings.php:118
+msgid "Currency"
+msgstr ""
+
+#: includes/Services/Settings.php:119
+msgid "Changing this refills the format below, unless you have edited it."
+msgstr ""
+
+#: includes/Services/Settings.php:128
+msgid "Currency position"
+msgstr ""
+
+#: includes/Services/Settings.php:131
+msgid "Before the amount"
+msgstr ""
+
+#: includes/Services/Settings.php:132
+msgid "After the amount"
+msgstr ""
+
+#: includes/Services/Settings.php:140
+msgid "Thousand separator"
+msgstr ""
+
+#: includes/Services/Settings.php:148
+msgid "Decimal separator"
+msgstr ""
+
+#: includes/Services/Settings.php:156
+msgid "Number of decimals"
+msgstr ""
+
+#: includes/Services/Settings.php:157
+msgid "Display only. It never changes what a customer is charged."
+msgstr ""
+
+#: includes/Services/Settings.php:167
+msgid "Pages"
+msgstr ""
+
+#: includes/Services/Settings.php:171
+msgid "Receipt page"
+msgstr ""
+
+#: includes/Services/Settings.php:172
+msgid "The page holding the Receipt block. Customers are returned here after paying."
+msgstr ""
+
+#: includes/Services/Settings.php:191
+msgid "Downloadable products"
+msgstr ""
+
+#: includes/Services/Settings.php:195
+msgid "File download method"
+msgstr ""
+
+#: includes/Services/Settings.php:198
+msgid "Force downloads"
+msgstr ""
+
+#: includes/Services/Settings.php:199
+msgid "X-Accel-Redirect/X-Sendfile"
+msgstr ""
+
+#: includes/Services/Settings.php:207
+msgid "Number of times a file can be downloaded. Zero for unlimited re-downloads."
+msgstr ""
+
+#: includes/Services/Settings.php:216
+#: src/admin/app/routes/products/edit/index.js:287
+msgid "Download expiry"
+msgstr ""
+
+#: includes/Services/Settings.php:217
+msgid "Number of days before a download link expires. Zero to never expire."
+msgstr ""
+
+#: includes/Services/Settings.php:227
+#: src/admin/app/routes/index.js:129
+#: src/admin/app/routes/settings/emails/index.js:85
+#: src/admin/app/routes/settings/index.js:34
+msgid "Emails"
+msgstr ""
+
+#: includes/Services/Settings.php:232
+msgid "Email sender options"
+msgstr ""
+
+#: includes/Services/Settings.php:236
+msgid "\"From\" name"
+msgstr ""
+
+#: includes/Services/Settings.php:244
+msgid "\"From\" address"
+msgstr ""
+
+#: includes/Services/Settings.php:253
+#: src/admin/app/routes/index.js:145
+#: src/admin/app/routes/settings/advanced.js:15
+#: src/admin/app/routes/settings/index.js:46
+msgid "Advanced"
+msgstr ""
+
+#: includes/Services/Settings.php:258
+msgid "Abandoned checkouts"
+msgstr ""
+
+#: includes/Services/Settings.php:262
+msgid "Hold unpaid orders for"
+msgstr ""
+
+#: includes/Services/Settings.php:263
+msgid "Hold unpaid orders for x hours. When this limit is reached, the pending order will be cancelled. Nothing is deleted."
+msgstr ""
+
+#: includes/Services/Settings.php:271
+msgid "Data"
+msgstr ""
+
+#: includes/Services/Settings.php:275
+msgid "Remove data on uninstall"
+msgstr ""
+
+#: includes/Services/Settings.php:276
+msgid "Remove all data when the plugin is deleted. Deactivating the plugin leaves everything in place."
+msgstr ""
+
+#: templates/checkout-dialog.php:29
+msgid "Close"
+msgstr ""
+
+#: templates/checkout-dialog.php:75
+msgid "Your download link is sent here."
+msgstr ""
+
+#: templates/checkout-dialog.php:78
+msgid "Website"
+msgstr ""
+
+#: templates/checkout-dialog.php:88
+msgid "Secure checkout. No account needed."
+msgstr ""
+
+#: src/admin/app/root.js:52
+msgid "Primary"
+msgstr ""
+
+#: src/admin/app/routes/customers/edit/index.js:61
+#: src/admin/app/routes/settings/emails/edit.js:44
+#: src/admin/app/routes/settings/group-form.js:44
+#: src/admin/app/routes/settings/payments/gateway.js:57
+msgid "Saving…"
+msgstr ""
+
+#: src/admin/app/routes/customers/edit/index.js:63
+msgid "Customer updated."
+msgstr ""
+
+#: src/admin/app/routes/customers/edit/index.js:64
+msgid "Customer created."
+msgstr ""
+
+#: src/admin/app/routes/customers/edit/index.js:65
+msgid "Failed to save the customer."
+msgstr ""
+
+#: src/admin/app/routes/customers/edit/index.js:86
+msgid "Edit customer"
+msgstr ""
+
+#: src/admin/app/routes/customers/edit/index.js:87
+#: src/admin/app/routes/customers/index.js:229
+#: src/admin/app/routes/customers/index.js:384
+msgid "Add customer"
+msgstr ""
+
+#: src/admin/app/routes/customers/edit/index.js:90
+#: src/admin/app/routes/products/edit/index.js:177
+#: src/admin/app/routes/settings/emails/edit.js:66
+msgid "Save"
+msgstr ""
+
+#: src/admin/app/routes/customers/filters.js:30
+msgid "Customer name…"
+msgstr ""
+
+#: src/admin/app/routes/customers/filters.js:43
+#: src/admin/app/routes/orders/filters.js:42
+msgid "Customer email…"
+msgstr ""
+
+#: src/admin/app/routes/customers/filters.js:49
+msgid "Country code…"
+msgstr ""
+
+#: src/admin/app/routes/customers/filters.js:52
+#: src/admin/app/routes/customers/index.js:84
+msgid "First seen"
+msgstr ""
+
+#: src/admin/app/routes/customers/filters.js:57
+#: src/admin/app/routes/orders/filters.js:96
+#: src/admin/app/routes/orders/filters.js:114
+#: src/admin/app/routes/products/filters.js:79
+msgid "Select date…"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:65
+#: src/admin/app/routes/products/index.js:68
+msgid "(no name)"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:122
+#: src/admin/app/routes/customers/view/index.js:70
+msgid "Customer deleted."
+msgid_plural "Customers deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/admin/app/routes/customers/index.js:132
+#: src/admin/app/routes/customers/view/index.js:75
+msgid "Failed to delete the customer."
+msgid_plural "Failed to delete the customers."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/admin/app/routes/customers/index.js:170
+#: src/admin/app/routes/orders/index.js:189
+#: src/admin/app/routes/products/index.js:179
+msgid "Actions"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:180
+#: src/admin/app/routes/orders/index.js:199
+msgid "View"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:186
+#: src/admin/app/routes/customers/view/index.js:129
+#: src/admin/app/routes/products/index.js:189
+#: src/admin/app/routes/settings/emails/index.js:56
+msgid "Edit"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:190
+#: src/admin/app/routes/customers/view/index.js:141
+msgid "Delete this customer?"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:194
+#: src/admin/app/routes/customers/index.js:320
+#: src/admin/app/routes/customers/view/index.js:145
+msgid "Their orders are kept."
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:198
+#: src/admin/app/routes/customers/index.js:208
+#: src/admin/app/routes/customers/index.js:311
+#: src/admin/app/routes/customers/index.js:324
+#: src/admin/app/routes/customers/index.js:338
+#: src/admin/app/routes/customers/view/index.js:149
+#: src/admin/app/routes/customers/view/index.js:159
+#: src/admin/app/routes/orders/index.js:211
+#: src/admin/app/routes/orders/index.js:221
+#: src/admin/app/routes/orders/index.js:315
+#: src/admin/app/routes/orders/index.js:328
+#: src/admin/app/routes/orders/index.js:342
+#: src/admin/app/routes/orders/view/index.js:167
+#: src/admin/app/routes/orders/view/index.js:177
+#: src/admin/app/routes/products/edit/index.js:204
+#: src/admin/app/routes/products/edit/index.js:214
+#: src/admin/app/routes/products/index.js:201
+#: src/admin/app/routes/products/index.js:211
+#: src/admin/app/routes/products/index.js:321
+#: src/admin/app/routes/products/index.js:334
+#: src/admin/app/routes/products/index.js:348
+msgid "Delete"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:237
+msgid "Search by name or email…"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:253
+#: src/admin/app/routes/orders/index.js:253
+#: src/admin/app/routes/products/index.js:259
+msgid "Filters"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:259
+#: src/admin/app/routes/orders/index.js:259
+#: src/admin/app/routes/products/index.js:265
+msgid "Columns"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:316
+msgid "Delete the selected customers?"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:351
+msgid "No customers match"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:355
+#: src/admin/app/routes/orders/index.js:359
+#: src/admin/app/routes/products/index.js:365
+msgid "Try a different search or clear the filters."
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:361
+#: src/admin/app/routes/orders/index.js:365
+#: src/admin/app/routes/products/index.js:371
+msgid "Clear filters"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:369
+msgid "No customers yet"
+msgstr ""
+
+#: src/admin/app/routes/customers/index.js:373
+msgid "A customer is created the first time someone buys from you."
+msgstr ""
+
+#: src/admin/app/routes/customers/view/index.js:84
+msgid "Customer not found"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/index.js:85
+#: src/admin/app/routes/orders/view/index.js:85
+#: src/admin/app/routes/products/edit/index.js:128
+msgid "It may have been deleted."
+msgstr ""
+
+#: src/admin/app/routes/customers/view/index.js:91
+#: src/admin/app/routes/customers/view/index.js:119
+msgid "Back to customers"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/index.js:136
+#: src/admin/app/routes/orders/view/index.js:154
+#: src/admin/app/routes/products/edit/index.js:188
+msgid "More actions"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/sidebar/stats.js:30
+msgid "Stats"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/sidebar/stats.js:45
+msgid "Total spent"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/sidebar/stats.js:60
+msgid "Last order"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/downloads.js:22
+#: src/admin/app/routes/orders/view/tabs/downloads.js:27
+msgid "File"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/downloads.js:42
+msgid "Downloaded"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/downloads.js:79
+msgid "No downloads yet"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/downloads.js:80
+msgid "Every file this customer fetches is listed here."
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/index.js:24
+#: src/admin/app/routes/dashboard/index.js:166
+#: src/admin/app/routes/orders/view/tabs/index.js:23
+msgid "Overview"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/orders.js:26
+#: src/admin/app/routes/customers/view/tabs/overview.js:90
+#: src/admin/app/routes/orders/index.js:373
+msgid "No orders yet"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/orders.js:27
+#: src/admin/app/routes/customers/view/tabs/overview.js:91
+msgid "Orders appear here as soon as this customer pays."
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/overview.js:29
+#: src/admin/app/routes/orders/view/tabs/overview.js:47
+#: src/admin/app/routes/products/edit/index.js:225
+msgid "Details"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/overview.js:50
+msgid "Customer since"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/overview.js:63
+msgid "WordPress user"
+msgstr ""
+
+#: src/admin/app/routes/customers/view/tabs/overview.js:66
+msgid "Guest"
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:37
+msgid "7 days"
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:38
+msgid "30 days"
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:39
+msgid "90 days"
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:40
+msgid "12 months"
+msgstr ""
+
+#. translators: %s: the user's display name.
+#: src/admin/app/routes/dashboard/index.js:48
+#, js-format
+msgid "Good morning, %s"
+msgstr ""
+
+#. translators: %s: the user's display name.
+#: src/admin/app/routes/dashboard/index.js:53
+#, js-format
+msgid "Good afternoon, %s"
+msgstr ""
+
+#. translators: %s: the user's display name.
+#: src/admin/app/routes/dashboard/index.js:57
+#, js-format
+msgid "Good evening, %s"
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:83
+msgid "Could not load the dashboard"
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:102
+msgid "Here’s how your store is doing."
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:113
+msgid "Finish setting up"
+msgstr ""
+
+#. translators: 1: steps done, 2: steps in total.
+#: src/admin/app/routes/dashboard/index.js:121
+#, js-format
+msgid "%1$d of %2$d done"
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:209
+msgid "No revenue in this period."
+msgstr ""
+
+#: src/admin/app/routes/dashboard/index.js:213
+msgid "Net revenue over the selected period"
+msgstr ""
+
+#: src/admin/app/routes/index.js:51
+#: src/admin/app/routes/products/edit/index.js:154
+#: src/admin/app/routes/products/index.js:233
+#: src/admin/app/routes/products/index.js:396
+msgid "Add product"
+msgstr ""
+
+#: src/admin/app/routes/index.js:52
+msgid "Edit product"
+msgstr ""
+
+#: src/admin/app/routes/index.js:121
+#: src/admin/app/routes/settings/payments/gateway.js:99
+msgid "Payment gateway"
+msgstr ""
+
+#: src/admin/app/routes/orders/filters.js:60
+msgid "Type"
+msgstr ""
+
+#: src/admin/app/routes/orders/filters.js:69
+#: src/admin/app/routes/orders/view/tabs/overview.js:138
+msgid "Mode"
+msgstr ""
+
+#: src/admin/app/routes/orders/filters.js:73
+msgid "Live"
+msgstr ""
+
+#: src/admin/app/routes/orders/filters.js:78
+#: src/admin/app/routes/orders/view/tabs/overview.js:143
+msgid "Discount code"
+msgstr ""
+
+#: src/admin/app/routes/orders/filters.js:88
+msgid "Code…"
+msgstr ""
+
+#: src/admin/app/routes/orders/index.js:68
+msgid "Not yet known"
+msgstr ""
+
+#: src/admin/app/routes/orders/index.js:141
+#: src/admin/app/routes/orders/view/index.js:70
+msgid "Order deleted."
+msgid_plural "Orders deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/admin/app/routes/orders/index.js:151
+#: src/admin/app/routes/orders/view/index.js:75
+msgid "Failed to delete the order."
+msgid_plural "Failed to delete the orders."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/admin/app/routes/orders/index.js:203
+#: src/admin/app/routes/orders/view/index.js:159
+msgid "Delete this order?"
+msgstr ""
+
+#: src/admin/app/routes/orders/index.js:207
+#: src/admin/app/routes/orders/view/index.js:163
+msgid "The customer loses access to its downloads."
+msgstr ""
+
+#: src/admin/app/routes/orders/index.js:237
+msgid "Search by email or order number…"
+msgstr ""
+
+#: src/admin/app/routes/orders/index.js:320
+msgid "Delete the selected orders?"
+msgstr ""
+
+#: src/admin/app/routes/orders/index.js:324
+msgid "The customers lose access to their downloads."
+msgstr ""
+
+#: src/admin/app/routes/orders/index.js:355
+msgid "No orders match"
+msgstr ""
+
+#: src/admin/app/routes/orders/index.js:377
+msgid "Orders appear here as soon as a customer pays."
+msgstr ""
+
+#: src/admin/app/routes/orders/view/index.js:62
+msgid "Updating…"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/index.js:63
+msgid "Order status updated."
+msgstr ""
+
+#: src/admin/app/routes/orders/view/index.js:64
+msgid "Failed to update the order."
+msgstr ""
+
+#: src/admin/app/routes/orders/view/index.js:84
+msgid "Order not found"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/index.js:91
+#: src/admin/app/routes/orders/view/index.js:122
+msgid "Back to orders"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/index.js:136
+msgid "Change status"
+msgstr ""
+
+#. translators: %s: order number.
+#: src/admin/app/routes/orders/view/index.js:188
+#, js-format
+msgid "Order #%s"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/sidebar/totals.js:18
+msgid "Totals"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/sidebar/totals.js:29
+msgid "Subtotal"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/sidebar/totals.js:39
+msgid "Discount"
+msgstr ""
+
+#. translators: 1: downloads used, 2: the limit, or "unlimited".
+#: src/admin/app/routes/orders/view/tabs/downloads.js:37
+#, js-format
+msgid "%1$d of %2$s"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/downloads.js:39
+msgid "unlimited"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/downloads.js:44
+msgid "Expires"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/downloads.js:50
+msgid "Never"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/downloads.js:55
+msgid "Link"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/downloads.js:63
+msgid "Copy download link"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/downloads.js:81
+msgid "Nothing to download"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/downloads.js:85
+msgid "The files become available when the payment completes."
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/overview.js:83
+msgid "Placed"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/overview.js:88
+msgid "Payment"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/overview.js:96
+msgid "Reference"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/overview.js:105
+msgid "Copy reference"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/overview.js:115
+msgid "View in the gateway dashboard"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/overview.js:128
+msgid "Paid"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/overview.js:156
+msgid "Items"
+msgstr ""
+
+#: src/admin/app/routes/orders/view/tabs/overview.js:168
+msgid "Qty"
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:100
+msgid "Product saved."
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:109
+#: src/admin/app/routes/products/index.js:131
+msgid "Product deleted."
+msgid_plural "Products deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/admin/app/routes/products/edit/index.js:114
+#: src/admin/app/routes/products/index.js:141
+msgid "Failed to delete the product."
+msgid_plural "Failed to delete the products."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/admin/app/routes/products/edit/index.js:127
+msgid "Product not found"
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:134
+#: src/admin/app/routes/products/edit/index.js:149
+msgid "Back to products"
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:171
+msgid "Cancel"
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:196
+#: src/admin/app/routes/products/index.js:193
+msgid "Delete this product?"
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:200
+#: src/admin/app/routes/products/index.js:197
+#: src/admin/app/routes/products/index.js:330
+msgid "Orders already placed keep the name and price they were sold at; their download links stop working."
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:229
+msgid "Image"
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:254
+msgid "A draft cannot be bought."
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:270
+msgid "Files delivered to the customer after purchase."
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:279
+msgid "Times each file may be downloaded. Zero uses the store setting."
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:289
+msgid "Days before the links expire. Zero uses the store setting."
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:296
+msgid "days"
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:304
+msgid "Files upload as soon as you add them."
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:322
+msgid "Upload failed."
+msgstr ""
+
+#: src/admin/app/routes/products/edit/index.js:325
+msgid "Add download"
+msgstr ""
+
+#: src/admin/app/routes/products/filters.js:42
+msgid "Product name…"
+msgstr ""
+
+#: src/admin/app/routes/products/filters.js:74
+msgid "Date created"
+msgstr ""
+
+#: src/admin/app/routes/products/import.js:37
+msgid "Import"
+msgstr ""
+
+#: src/admin/app/routes/products/import.js:43
+msgid "Import products"
+msgstr ""
+
+#: src/admin/app/routes/products/import.js:44
+msgid "products"
+msgstr ""
+
+#: src/admin/app/routes/products/index.js:94
+msgid "Created"
+msgstr ""
+
+#: src/admin/app/routes/products/index.js:243
+msgid "Search products…"
+msgstr ""
+
+#: src/admin/app/routes/products/index.js:326
+msgid "Delete the selected products?"
+msgstr ""
+
+#: src/admin/app/routes/products/index.js:361
+msgid "No products match"
+msgstr ""
+
+#: src/admin/app/routes/products/index.js:379
+msgid "No products yet"
+msgstr ""
+
+#: src/admin/app/routes/products/index.js:383
+msgid "A product is the thing you sell and the files that come with it."
+msgstr ""
+
+#: src/admin/app/routes/settings/emails/edit.js:45
+msgid "Email saved."
+msgstr ""
+
+#: src/admin/app/routes/settings/emails/edit.js:46
+msgid "Failed to save the email."
+msgstr ""
+
+#: src/admin/app/routes/settings/emails/index.js:25
+msgid "Sent to the customer"
+msgstr ""
+
+#: src/admin/app/routes/settings/emails/index.js:26
+msgid "Sent to you"
+msgstr ""
+
+#: src/admin/app/routes/settings/emails/index.js:45
+msgid "Failed to update the email."
+msgstr ""
+
+#: src/admin/app/routes/settings/emails/index.js:63
+#: src/admin/app/routes/settings/payments/index.js:75
+msgid "Enable"
+msgstr ""
+
+#: src/admin/app/routes/settings/emails/index.js:87
+msgid "Notifications"
+msgstr ""
+
+#: src/admin/app/routes/settings/group-form.js:45
+msgid "Settings saved."
+msgstr ""
+
+#: src/admin/app/routes/settings/group-form.js:46
+msgid "Failed to save the settings."
+msgstr ""
+
+#: src/admin/app/routes/settings/group-form.js:63
+#: src/admin/app/routes/settings/payments/gateway.js:110
+msgid "Save changes"
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/gateway.js:58
+msgid "Gateway saved."
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/gateway.js:59
+msgid "Failed to save the gateway."
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/gateway.js:72
+msgid "Gateway not found"
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/gateway.js:73
+msgid "It may have been removed by a plugin."
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/gateway.js:79
+#: src/admin/app/routes/settings/payments/gateway.js:94
+msgid "Back to payments"
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/gateway.js:126
+msgid "Webhook"
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/gateway.js:129
+msgid "Add this URL in the gateway’s dashboard."
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/index.js:50
+msgid "Failed to update the gateway."
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/index.js:67
+msgid "Manage"
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/index.js:94
+msgid "Needs setup"
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/index.js:116
+msgid "How customers pay you. Enable a gateway to offer it at checkout."
+msgstr ""
+
+#: src/admin/app/routes/settings/payments/index.js:123
+msgid "Gateways"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:83
+msgid "Search products"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:176
+msgid "Buy button"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:188
+msgid "Button text"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:197
+msgid "Show the price"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:206
+msgid "Width"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:234
+msgid "Hover background"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:240
+msgid "Hover text"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:253
+msgid "Buy Button"
+msgstr ""
+
+#: src/blocks/buy-button/edit.js:254
+msgid "Pick the product this button sells."
+msgstr ""
+
+#: src/blocks/receipt/edit.js:40
+msgid "Heading after payment"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:44
+msgid "Note after payment"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:49
+msgid "Heading while payment is pending"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:53
+msgid "Note while payment is pending"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:58
+msgid "Heading when the order is not found"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:60
+#: src/blocks/receipt/edit.js:139
+msgid "Download button"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:63
+msgid "Help line"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:95
+msgid "Text"
+msgstr ""
+
+#. translators: %s is literal text the merchant types, not a placeholder.
+#: src/blocks/receipt/edit.js:113
+#, js-format
+msgid "Write %s where the customer email should appear."
+msgstr ""
+
+#: src/blocks/receipt/edit.js:127
+msgid "Show order, date and total"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:148
+msgid "Fill"
+msgstr ""
+
+#: src/blocks/receipt/edit.js:152
+msgid "Outline"
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+msgctxt "block title"
+msgid "Buy Button"
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+msgctxt "block description"
+msgid "Sells one product. Drop it on any page or post."
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+msgctxt "block keyword"
+msgid "buy"
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+msgctxt "block keyword"
+msgid "checkout"
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+msgctxt "block keyword"
+msgid "sell"
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+#: src/blocks/receipt/block.json
+msgctxt "block keyword"
+msgid "download"
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+msgctxt "block keyword"
+msgid "purchase"
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+msgctxt "block style label"
+msgid "Fill"
+msgstr ""
+
+#: src/blocks/buy-button/block.json
+msgctxt "block style label"
+msgid "Outline"
+msgstr ""
+
+#: src/blocks/receipt/block.json
+msgctxt "block title"
+msgid "Receipt"
+msgstr ""
+
+#: src/blocks/receipt/block.json
+msgctxt "block description"
+msgid "Shows a customer what they bought and their download links."
+msgstr ""
+
+#: src/blocks/receipt/block.json
+msgctxt "block keyword"
+msgid "receipt"
+msgstr ""
+
+#: src/blocks/receipt/block.json
+msgctxt "block keyword"
+msgid "order"
+msgstr ""
+
+#: src/blocks/receipt/block.json
+msgctxt "block keyword"
+msgid "thank you"
+msgstr ""
